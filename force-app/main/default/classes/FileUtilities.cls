@@ -24,6 +24,7 @@ public with sharing class FileUtilities {
             contentDocumentLink.LinkedEntityId = recordId;
             contentDocumentLink.ShareType = 'V';
             insert contentDocumentLink;
+            //COMENT TO Example
 
             return contentDocumentLink.Id;
         } catch (Exception e) {
